@@ -10,19 +10,19 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{display:"flex",alignItems: "center", color:"white"}}>
-          <DiCssdeck size="3em"/> <Span>My Portfolio</Span>
+          <DiCssdeck size="3em"/> <Span>Jainta Paul</Span>
         </a>
       </Link>
     </Div1>
 
     <Div2>
       <li>
-        <Link href="#academic_projects">
+        <Link href="#academicprojects">
           <NavLink>Academic Projects</NavLink>
         </Link>
         </li>
         <li>
-        <Link href="#personal_projects">
+        <Link href="#personalprojects">
           <NavLink>Personal Projects</NavLink>
         </Link>
         </li>
