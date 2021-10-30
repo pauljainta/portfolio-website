@@ -28,6 +28,9 @@ const AcademicProjects = () => (
          </div>
          <UtilityList>
            <ExternalLinks href={project.source}>Source Code</ExternalLinks>
+
+           {project.id==2 && 
+              <ExternalLinks href={project.visit}>Visit</ExternalLinks> }
          </UtilityList>
          </BlogCard>
 
