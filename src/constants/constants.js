@@ -1,11 +1,11 @@
 export const academicprojects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'RIDER:A Traffic Solution',
+    description: "Using Android Studio, Java, Firebase Database & Google Map, some basic functionalities of a ride sharing app was implemented. Apart from the typical functionalities, bus service was added in this project. ",
+      image: '/images/rider.png',
+      tags: ['Android Studio', 'Java', 'Firebase', 'Google Map'],
+    source: 'https://github.com/pauljainta/Rider-A-traffic-solution-Software-Development-Project-',
+    visit: 'https://github.com/pauljainta/Rider-A-traffic-solution-Software-Development-Project-',
     id: 0,
   },
   {
@@ -27,12 +27,12 @@ export const academicprojects = [
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Ray Tracing:Computer Graphics',
+    description: "This is a computer graphics project for ray tracing using c++ language",
+    image: '/images/raytracing.bmp',
+    tags: ['C++', 'Computer Graphics', 'Ray Tracing'],
+    source: 'https://github.com/pauljainta/Graphics-Offline-3-Ray-Tracing-Offline-',
+    visit: 'https://github.com/pauljainta/Graphics-Offline-3-Ray-Tracing-Offline-',
     id: 3,
   },
 ];
