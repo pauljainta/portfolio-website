@@ -18,13 +18,22 @@ export const academicprojects = [
     id: 1,
   },
   {
+    title: 'Star Schema in Data Warehouse',
+    description: "This project implements the concept of star schema in data warehouse using PostGreSQL",
+    image: '/images/star.png',
+    tags: ['Database', 'Data Warehouse', 'PostGreSQL'],
+    source: 'https://github.com/pauljainta/CSE-453-Assignment',
+    visit: 'https://github.com/pauljainta/CSE-453-Assignment',
+    id: 2,
+  },
+  {
     title: 'Automated Car Parking Controller',
     description: "Using Mirocontroller concept and tools like lcd modules,atmega32,servo motor and C++ language,automated car parking system was implemented.",
       image: '/images/parking.png',
       tags: ['C++', 'Microcontroller'],
     source: 'https://github.com/Towsif20/MicroController-Project-3-1',
     visit: 'https://www.youtube.com/watch?v=KceWLTvJtEE&t=74s',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Ray Tracing:Computer Graphics',
@@ -33,7 +42,7 @@ export const academicprojects = [
     tags: ['C++', 'Computer Graphics', 'Ray Tracing'],
     source: 'https://github.com/pauljainta/Graphics-Offline-3-Ray-Tracing-Offline-',
     visit: 'https://github.com/pauljainta/Graphics-Offline-3-Ray-Tracing-Offline-',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Rasterization:Computer Graphics',
@@ -42,18 +51,30 @@ export const academicprojects = [
     tags: ['C++', 'Computer Graphics', 'Rasterization'],
     source: 'https://github.com/pauljainta/Raster-Based-Graphics-Pipeline',
     visit: 'https://github.com/pauljainta/Raster-Based-Graphics-Pipeline',
-    id: 4,
-  },
-  {
-    title: 'Star Schema in Data Warehouse',
-    description: "This project implements the concept of star schema in data warehouse using PostGreSQL",
-    image: '/images/star.png',
-    tags: ['Database', 'Data Warehouse', 'PostGreSQL'],
-    source: 'https://github.com/pauljainta/CSE-453-Assignment',
-    visit: 'https://github.com/pauljainta/CSE-453-Assignment',
     id: 5,
   },
+  {
+    title: 'OpenGL Project:Cannon',
+    description: "Using computer graphics concept and OpenGL tool, this project involves making a cannon which can be rotated arbitrarily.",
+    image: '/images/cannon.PNG',
+    tags: ['OpenGL', 'Computer Graphics', 'C++'],
+    source: 'https://github.com/pauljainta/Graphics-Offline-1-problem1',
+    visit: 'https://github.com/pauljainta/Graphics-Offline-1-problem1',
+    id: 6,
+  },
+  {
+    title: 'OpenGL Project:Floating Balls',
+    description: "Using computer graphics concept and OpenGL tool, this project involves making small balls floating in random direction and handling collision between themselves and within a circle.",
+    image: '/images/balls.PNG',
+    tags: ['OpenGL', 'Computer Graphics', 'C++'],
+    source: 'https://github.com/pauljainta/Graphics-offline-1-problem-2',
+    visit: 'https://github.com/pauljainta/Graphics-offline-1-problem-2',
+    id: 7,
+  },
+ 
 ];
+
+export const personalprojects=[];
 
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey', },
