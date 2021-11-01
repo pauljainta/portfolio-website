@@ -29,7 +29,7 @@ const AcademicProjects = () => (
          <UtilityList>
            <ExternalLinks href={project.source}>Source Code</ExternalLinks>
 
-           {project.id==3 && 
+           {(project.id==3 || project.id==0) && 
               <ExternalLinks href={project.visit}>Visit</ExternalLinks> }
          </UtilityList>
          </BlogCard>

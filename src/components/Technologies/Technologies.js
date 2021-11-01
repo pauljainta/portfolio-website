@@ -7,6 +7,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
  <Section id="tech">
    <SectionDivider/>
+   <br/>
    <SectionTitle>Technologies</SectionTitle>
    <SectionText>
      I have worked with a range of technologies both for my academic and personal projects.
@@ -33,7 +34,7 @@ const Technologies = () =>  (
           <ListParagraph>
             <ul>
               <li size="6em"><DiAndroid size="2em"/>Android Studio(did a academic project)</li>
-              <li size="6em">Java FX(did two academic projects)</li>
+              <li size="6em"><DiJava size="2em"/>Java FX(did two academic projects)</li>
             </ul>
           </ListParagraph>
        </ListContainer>

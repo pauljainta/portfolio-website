@@ -14,7 +14,7 @@ const Hero = () => (
       <SectionText>
         This is my personal portfolio website.It contains my academic acheievments , academic and personal projects,
         and description about myself.
-        <Button onClick={()=> window.location='https://www.buet.ac.bd/web/#/'}>Learn More</Button>
+        <Button onClick={()=> window.location='#academicprojects'}>Learn More</Button>
       </SectionText>
     </LeftSection>
 

@@ -5,7 +5,7 @@ export const academicprojects = [
       image: '/images/rider.png',
       tags: ['Android Studio', 'Java', 'Firebase', 'Google Map'],
     source: 'https://github.com/pauljainta/Rider-A-traffic-solution-Software-Development-Project-',
-    visit: 'https://github.com/pauljainta/Rider-A-traffic-solution-Software-Development-Project-',
+    visit: 'https://youtu.be/E48_vhxfHZY',
     id: 0,
   },
   {
@@ -83,3 +83,8 @@ export const TimeLineData = [
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },
 ];
+
+export const Aboutme="Thank you for showing your interest in me. In this section, "+
+ "I am going to give a brief description about myself.Currenty a CS undergraduate student in BUET,"+
+ " I am very passionate about learning new technologies. In early years of my undergrad life, I struggled a lot both mentally and academically."
+  +"I tried hard to improve in my last two years of undergrad life. I may not be the most brilliant student there is ,but I always try to give my best effort in a work I am assigned to do."
