@@ -6,9 +6,9 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <footer>
+    <p>&copy;Jainta Paul</p>
+  </footer>
   );
 };
 
